@@ -15,6 +15,8 @@ function startGame()
   
   player1=prompt("Enter the name of the 1st player all in lower case");
   player2=prompt("Enter the name of the 2nd player");
+  player1=player1.toLowerCase();
+  player2=player2.toLowerCase();
 
   /*to check only for developer*/
   console.log("the length of player1 name is:"+player1.length);
