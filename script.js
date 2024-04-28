@@ -13,7 +13,7 @@ function startGame()
   l1=[];
   l2=[];
   
-  player1=prompt("Enter the name of the 1st player all in lower case");
+  player1=prompt("Enter the name of the 1st player");
   player2=prompt("Enter the name of the 2nd player");
   player1=player1.toLowerCase();
   player2=player2.toLowerCase();
